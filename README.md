@@ -6,7 +6,7 @@ print(tables_nneded(10, 4)
   But, when I run the main.py... which does import helpers, the same print statement does not run
 
   Why that?... it simply because the print is inside this guard:
-  if __name__== " __main__":
+  if --name-- = " --main--":
   print(tables_needed(10, 4))
 
   If the file is run directly, Python sets its special variable --name-- to the string "--main--", becuase the code inside has been block by if during execustion.
